@@ -1,0 +1,18 @@
+[project]
+name = "volleyball-live-scorer"
+version = "1.0.0"
+description = "Volleyball Live Scorer Flask Application"
+requires-python = ">=3.8"
+dependencies = [
+    "Flask>=2.0.0",
+    "Flask-SQLAlchemy>=3.0.0",
+    "psycopg2-binary>=2.9.0",
+    "Werkzeug>=2.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.vercel]
+entrypoint = "app.py"
