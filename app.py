@@ -589,5 +589,3 @@ def set_match_winner():
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
-
-server = app
